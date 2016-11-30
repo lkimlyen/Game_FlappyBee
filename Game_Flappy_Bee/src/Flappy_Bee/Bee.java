@@ -1,12 +1,11 @@
-package flappybee;
+package Flappy_Bee;
 
 public class Bee {
-
-    private int centerX = 96;
-    private int centerY = 256;
-    private boolean jumped = false;
-    private int speedX = 0;
-    private int speedY = 1;
+	public int centerX = 96;
+    public int centerY = 256;
+    public boolean jumped = false;
+    public int speedX = 0;
+    public int speedY = 1;
 
     public void Update() {
         if (speedX < 0) {
